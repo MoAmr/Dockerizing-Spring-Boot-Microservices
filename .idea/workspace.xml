@@ -2,38 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acdfe762-d432-42c2-9c0f-5211760430a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ec/domain/RegionConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ec/service/TourRatingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ec/ExplorecaliApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ec/ExplorecaliApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ec/domain/Region.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ec/domain/Region.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ec/domain/Tour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ec/domain/Tour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ec/domain/TourPackage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ec/domain/TourPackage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ec/domain/TourRating.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ec/domain/TourRating.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ec/domain/TourRatingPk.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ec/repo/TourRatingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ec/repo/TourRatingRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ec/service/TourPackageService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ec/service/TourService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ec/web/TourRatingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ec/web/TourRatingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/ExploreCalifornia.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ExploreCalifornia.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ec/ExplorecaliApplication$TourFromFile$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ec/ExplorecaliApplication$TourFromFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ec/ExplorecaliApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ec/ExplorecaliApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ec/domain/Region.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ec/domain/Region.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ec/domain/Tour.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ec/domain/Tour.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ec/domain/TourPackage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ec/domain/TourPackage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ec/domain/TourRating.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ec/domain/TourRating.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ec/domain/TourRatingPk.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ec/repo/TourRatingRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ec/repo/TourRatingRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ec/service/TourPackageService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ec/service/TourService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ec/web/TourRatingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ec/web/TourRatingController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ec/service/TourRatingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ec/service/TourRatingService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,7 +49,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/ec/domain/RegionConverter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
@@ -96,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/ec/service/TourRatingService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+              <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -168,6 +137,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/ec/ExplorecaliApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/ec/domain/RegionConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/ec/service/TourRatingService.java" />
       </list>
     </option>
   </component>
@@ -328,15 +298,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534782205935</updated>
-      <workItem from="1621709932665" duration="2840000" />
+      <workItem from="1621709932665" duration="2889000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2840000" />
+    <option name="totallyTimeSpent" value="2889000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="668" y="0" width="772" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Web" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.22739726" />
@@ -500,13 +471,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/ec/service/TourRatingService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/ec/domain/RegionConverter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -518,6 +482,13 @@
             <element signature="e#411#412#0" expanded="true" />
             <element signature="e#438#439#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/ec/service/TourRatingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
         </state>
       </provider>
     </entry>

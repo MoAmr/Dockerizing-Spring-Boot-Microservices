@@ -20,6 +20,7 @@ import java.util.OptionalDouble;
  * Created by Mary Ellen Bowman.
  */
 @Service
+@Transactional
 public class TourRatingService {
     private TourRatingRepository tourRatingRepository;
     private TourRepository tourRepository;
