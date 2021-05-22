@@ -1,12 +1,11 @@
 package com.example.ec.web;
 
-import com.example.ec.domain.TourRating;
+import com.example.ec.domain.*;
 import com.example.ec.service.TourRatingService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.Pageable;
+import org.springframework.beans.factory.annotation.*;
+import org.springframework.data.domain.*;
 import org.springframework.data.web.PagedResourcesAssembler;
 import org.springframework.hateoas.PagedResources;
 import org.springframework.http.HttpStatus;
@@ -82,7 +81,8 @@ public class TourRatingController {
                                                           PagedResourcesAssembler pagedAssembler) {
         LOGGER.info("GET /tours/{}/ratings", tourId);
         Page<TourRating> tourRatingPage = tourRatingService.lookupRatings(tourId, pageable);
-        return pagedAssembler.toResource(tourRatingPage, assembler);
+        PagedResources<RatingDto> result =  pagedAssembler.toResource(tourRatingPage, assembler);
+        return result;
     }
 
     /**
@@ -154,7 +154,7 @@ public class TourRatingController {
      */
     @ResponseStatus(HttpStatus.NOT_FOUND)
     @ExceptionHandler(NoSuchElementException.class)
-    public String return404(NoSuchElementException ex) {
+    public String return400(NoSuchElementException ex) {
         LOGGER.error("Unable to complete transaction", ex);
         return ex.getMessage();
 
