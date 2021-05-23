@@ -2,18 +2,19 @@ package com.example.ec.web;
 
 import com.example.ec.domain.*;
 import com.example.ec.service.TourRatingService;
+import io.swagger.annotations.Api;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.*;
 import org.springframework.data.domain.*;
 import org.springframework.data.web.PagedResourcesAssembler;
 import org.springframework.hateoas.PagedResources;
-import org.springframework.http.HttpStatus;
-import org.springframework.validation.annotation.Validated;
+import org.springframework.http.*;
+import org.springframework.validation.annotation.*;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.AbstractMap;
-import java.util.NoSuchElementException;
+import java.util.*;
+import java.util.stream.*;
 
 /**
  * Tour Rating Controller
