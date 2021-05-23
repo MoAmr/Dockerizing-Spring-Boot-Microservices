@@ -1,6 +1,7 @@
 package com.example.ec.web;
 
 import com.example.ec.service.TourRatingService;
+import io.swagger.annotations.Api;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,7 +15,7 @@ import java.util.NoSuchElementException;
 /**
  * Created by Mary Ellen Bowman
  */
-//@Api(description = "API to just pull ratings")
+@Api(description = "API to just pull ratings")
 @RestController
 @RequestMapping(path = "/ratings")
 public class RatingController {

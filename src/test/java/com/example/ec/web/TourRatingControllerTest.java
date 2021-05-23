@@ -25,7 +25,6 @@ import java.util.List;
 
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
-
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.anyInt;
 import static org.mockito.Mockito.verify;
@@ -49,6 +48,9 @@ public class TourRatingControllerTest {
     private static final int SCORE = 3;
     private static final String COMMENT = "comment";
     private static final String TOUR_RATINGS_URL = "/tours/" + TOUR_ID + "/ratings";
+
+    @Autowired
+    private JwtRequestHelper jwtRequestHelper;
 
     @Autowired
     private TestRestTemplate restTemplate;
@@ -99,6 +101,7 @@ public class TourRatingControllerTest {
     @Test
     public void createManyTourRatings() throws Exception {
         restTemplate.postForEntity(TOUR_RATINGS_URL + "/" + SCORE + "?customers=" + CUSTOMER_ID, ratingDto, Void.class);
+
         verify(serviceMock).rateMany(TOUR_ID, SCORE, new Integer[] {CUSTOMER_ID});
     }
 
