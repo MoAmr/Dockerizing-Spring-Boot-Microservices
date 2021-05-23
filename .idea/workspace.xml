@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="acdfe762-d432-42c2-9c0f-5211760430a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ec/web/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ec/domain/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ec/domain/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ec/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ec/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ec/repo/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ec/repo/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ec/web/TourRatingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ec/web/TourRatingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ec/web/TourRatingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ec/web/TourRatingController.class" afterDir="false" />
-    </list>
+    <list default="true" id="acdfe762-d432-42c2-9c0f-5211760430a6" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -307,7 +299,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ExplorecaliApplication">
+  <component name="RunManager" selected="JUnit.UserServiceIntegrationTest">
     <configuration name="TourRatingServiceIntegrationTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="explorecali" />
       <extension name="coverage">
@@ -372,7 +364,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TourRatingServiceTest.lookupRatingById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserServiceIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="explorecali" />
       <extension name="coverage">
         <pattern>
@@ -381,9 +373,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.ec.service" />
-      <option name="MAIN_CLASS_NAME" value="com.example.ec.service.TourRatingServiceTest" />
-      <option name="METHOD_NAME" value="lookupRatingById" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ec.service.UserServiceIntegrationTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -397,11 +388,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserServiceIntegrationTest" />
         <item itemvalue="JUnit.TourRatingServiceIntegrationTest.deleteException" />
         <item itemvalue="JUnit.TourRatingServiceIntegrationTest.delete" />
         <item itemvalue="JUnit.TourRatingServiceTest.createNew" />
         <item itemvalue="JUnit.TourRatingServiceTest.delete" />
-        <item itemvalue="JUnit.TourRatingServiceTest.lookupRatingById" />
       </list>
     </recent_temporary>
   </component>
