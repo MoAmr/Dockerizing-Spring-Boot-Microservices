@@ -70,19 +70,32 @@ or
 java  -Dspring.profiles.active=mysql -jar target/explorecali-2.0.0-SNAPSHOT.jar
 ``
 #### Dockerize Explore California
-##### Build jar
+##### Build jar, image, set default profile
 ``
-mvn package -DskipTests
+mvn package -DskipTests docker:build 
 ``
-##### Build Docker image
+###### container with default property set in Dockerfile
 ``
-docker build -t explorecali .
+docker run --name ec-app-default -p 8080:8080  -d explorecali-default
 ``
-##### Run Docker container
+##### Build jar, image, set mysql profile
 ``
-docker run  --name ec-app -p 8080:8080  --link ec-mysql:mysql -d explorecali
+mvn package -DskipTests docker:build -Dec-profile=mysql
 ``
-##### enter Docker container
+##### Run Docker container with mysql profile
+``
+docker run    --name ec-app-mysql -p 8181:8080  --link ec-mysql:mysql -d explorecali-mysql
+``
+##### Build jar, image, set docker profile
+``
+mvn package -DskipTests docker:build -Dec-profile=docker
+``
+##### Run Docker container with docker profile set in Dockerfile and migration scripts on host
+``
+docker run --name ec-app-docker -p 8282:8080 -v ~/db/migration:/var/migration -e server=ec-mysql -e port=3306 -e dbuser=cali_user -e dbpassword=cali_pass --link ec-mysql:mysql -d explorecali-docker
+``
+##### Enter Docker container
 ``
 docker exec -t -i ec-app /bin/bash
 ``
+#####
